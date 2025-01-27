@@ -1,0 +1,1 @@
+This repository demonstrates a bug in React Router DOM v6 where updating state within a functional component does not trigger an expected re-render and the URL doesn't update properly.  The bug is in `About.js` where  `this.setState()` is used incorrectly in a functional component.
